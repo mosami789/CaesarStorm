@@ -7,7 +7,7 @@ var player = new PandaPlayer(playerElement, {
 });
 function play(id) {
  switch (id){
-    case 12 : var url = "http://assatira-connect.tv/hls/bein1.mpd"; break;
+    case 12 : var url = "https://akamaibroadcasteruseast.akamaized.net/cmaf/live/657078/akasource/out.mpd"; break;
     case 22 : var url = "http://assatira-connect.tv/hls/beines.mpd?token=frofglfggg"; break;
     case 15 : var url = "https://besus03d.akamaized.net/dash/live/706268/besus03d/manifest.mpd?"; break;
     case 16 : var url = "https://besus05d.akamaized.net/dash/live/706270/besus05d/manifest.mpd?"; break;
