@@ -1,14 +1,3 @@
-
-var mych = location.search.split('s=')[1]
-xmlhttp=new XMLHttpRequest();
-xmlhttp.open("GET","https://besfras-s.akamaihd.net/serverIp" ,false);
-xmlhttp.send();
-
-var obj = xmlhttp.responseText;
-var myh = obj.split("?");
-var myhac = myh[1];
-//alert(obj);
-
 var playerElement = document.getElementById('player');
 var player = new PandaPlayer(playerElement, {
   locale: 'en',
@@ -18,8 +7,8 @@ var player = new PandaPlayer(playerElement, {
 });
 function play(id) {
  switch (id){
-    case 12 : var url = "https://akamaibroadcasteruseast.akamaized.net/cmaf/live/657078/akasource/out.mpd"; break;
-    case 22 : var url = "http://livecdnh3.tvanywhere.ae/ss/rotclip.isml/Manifest"; break;
+    case 12 : var url = "http://assatira-connect.tv/hls/bein1.mpd"; break;
+    case 22 : var url = "http://assatira-connect.tv/hls/beines.mpd?token=frofglfggg"; break;
     case 15 : var url = "https://besus03d.akamaized.net/dash/live/706268/besus03d/manifest.mpd?"; break;
     case 16 : var url = "https://besus05d.akamaized.net/dash/live/706270/besus05d/manifest.mpd?"; break;
     case 17 : var url = "http://assatira-connect.tv/hls/bein5.mpd"; break;
@@ -30,4 +19,3 @@ function play(id) {
  }
  
  player.play({file_url: url+''});
-}
