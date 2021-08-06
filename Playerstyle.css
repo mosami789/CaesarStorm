@@ -1,0 +1,238 @@
+    .container{
+       	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+    }
+    
+    
+#player {
+	left: 105px;
+	top: 34px;
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.bmpui-ui-playbacktimelabel {
+	font-size: 22px;
+	font-family: Open Sans,sans-serif;
+	font-weight: 600;
+}
+
+.bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-airplaytogglebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-audiotracksettingstogglebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-button, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-casttogglebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-clickoverlay, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-closebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-fullscreentogglebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-hugeplaybacktogglebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-hugereplaybutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-listbox .bmpui-ui-listbox-button, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-piptogglebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-playbacktogglebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-settingspanelpagebackbutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-settingspanelpageopenbutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-settingstogglebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-button-ad-skip, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-subtitlesettingsresetbutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-subtitlesettingstogglebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-volumetogglebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-vrtogglebutton, .bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-watermark {
+	background-size: 2.5em;
+	padding: 1em;
+}
+
+.bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-airplaytogglebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-audiotracksettingstogglebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-button, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-casttogglebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-clickoverlay, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-closebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-fullscreentogglebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-hugeplaybacktogglebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-hugereplaybutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-listbox .bmpui-ui-listbox-button, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-piptogglebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-playbacktogglebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-settingspanelpagebackbutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-settingspanelpageopenbutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-settingstogglebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-button-ad-skip, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-subtitlesettingsresetbutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-subtitlesettingstogglebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-volumetogglebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-vrtogglebutton, .bitmovinplayer-container[data-fullscreen=false] .bmpui-ui-watermark {
+	background-size: 2em;
+	padding: .5em;
+}
+
+.bmpui-ui-errormessage-overlay .bmpui-ui-tvnoisecanvas {
+	display: none;
+}
+
+.bmpui-ui-errormessage-overlay {
+	background-color: #000;
+}
+
+#bmpui-id-213 {
+	display: none !important;
+}
+
+#bmpui-id-212 {
+	display: none !important;
+}
+
+.bmpui-ui-errormessage-label {
+	color: #6e6e6e !important;
+	font-size: 23px !important;
+	font-weight: 700;
+}
+
+	.bmpui-ui-errormessage-label img {
+		max-width: 40%;
+		height: auto !important;
+		margin-bottom: 15px;
+	}
+
+.player-switch.fixed-player .bmpui-ui-errormessage-label img {
+	max-width: 70px;
+	margin-bottom: 10px;
+}
+
+.player-switch.fixed-player .bmpui-ui-errormessage-label {
+	font-size: 19px !important;
+}
+
+.bmpui-ui-playbacktimelabel-live {
+	display: none;
+}
+
+.bmpui-ui-label.bmpui-seekbar-label-time {
+	color: #fff;
+	font-weight: 700;
+	font-size: 22px !important;
+	text-shadow: 0 0 5px hsla(0,0%,100%,.7);
+}
+
+.bmpui-ui-seekbar-label .bmpui-seekbar-label-inner > .bmpui-container-wrapper .bmpui-seekbar-label-metadata {
+	background: none !important;
+}
+
+.bmpui-ui-errormessage-overlay {
+	z-index: 5;
+}
+
+.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop, .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel, .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers, .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers > .bmpui-seekbar-marker, .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition, .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker, .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-seekposition, .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop, .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel, .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers, .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers > .bmpui-seekbar-marker, .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition, .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker, .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition {
+	border-radius: 4px;
+	height: 8px;
+}
+
+.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel, .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
+	background-color: #c1c0c0;
+}
+
+.logo_channel_on_buffer {
+	display: block;
+}
+
+#bmpui-id-199 {
+	display: none !important;
+}
+
+.bmpui-ui-buffering-overlay {
+	z-index: 20;
+}
+
+.logo_channel_on_buffer {
+	max-width: 30%;
+	height: auto !important;
+	margin-top: -40px;
+	display: inline-block;
+}
+
+.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition, .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition, .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
+	background-color: #083671;
+}
+
+.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker, .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
+	background-color: #fff;
+	border-color: #fff;
+	border-radius: 50% !important;
+	height: 12px !important;
+}
+
+.info-icon, .zapping-icons-container {
+	display: none;
+}
+
+.bitmovinplayer-container[data-fullscreen=true] .info-icon, .bitmovinplayer-container[data-fullscreen=true] .zapping-icons-container {
+	display: block;
+}
+
+.bitmovinplayer-container[data-fullscreen=false] .player-right-container {
+	display: none;
+}
+
+.bitmovinplayer-container[data-fullscreen=true] .bmpui-ui-controlbar {
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.Button {
+	border-radius: 3px;
+	border: 0;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 500;
+	font-size: 13px;
+	letter-spacing: 1px;
+	outline: 0;
+	padding: 16px 36px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	transition: box-shadow 0.15s, background-color 0.15s;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	vertical-align: middle;
+	will-change: box-shadow, background-color, color;
+}
+
+.sync-container {
+	width: 50px;
+	height: 25px;
+	bottom: 0;
+	position: fixed;
+	right: 15px;
+	overflow: hidden;
+}
+
+.Button--sync {
+	background-color: #083671;
+	border-radius: 25px;
+	color: white;
+	font-size: 13px;
+	line-height: 0px;
+	text-align: center;
+	padding: 0;
+	height: 50px;
+	width: 50px;
+	top: -32px;
+	left: 25px;
+}
+
+	.Button--sync &gt;span {
+		line-height: 20px;
+		font-size: 10px;
+		position: relative;
+		top: -10px;
+		font-weight: bold;
+	}
+
+#sync {
+	-webkit-transform: translate(-50%, 50%);
+	transform: translate(-50%, 50%);
+}
+
+.bmpui-ui-airplaytogglebutton, .bmpui-ui-audiotracksettingstogglebutton, .bmpui-ui-button, .bmpui-ui-casttogglebutton, .bmpui-ui-clickoverlay, .bmpui-ui-closebutton, .bmpui-ui-fullscreentogglebutton, .bmpui-ui-hugeplaybacktogglebutton, .bmpui-ui-hugereplaybutton, .bmpui-ui-listbox .bmpui-ui-listbox-button, .bmpui-ui-piptogglebutton, .bmpui-ui-playbacktogglebutton, .bmpui-ui-settingspanelpagebackbutton, .bmpui-ui-settingspanelpageopenbutton, .bmpui-ui-settingstogglebutton, .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-button-ad-skip, .bmpui-ui-subtitlesettingsresetbutton, .bmpui-ui-subtitlesettingstogglebutton, .bmpui-ui-volumetogglebutton, .bmpui-ui-vrtogglebutton, .bmpui-ui-watermark {
+	background-color: transparent;
+	background-origin: content-box;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: 2.0em;
+	border: 0;
+	box-sizing: content-box;
+	cursor: pointer;
+	font-size: 1em;
+	height: 1.5em;
+	min-width: 1.5em;
+	padding: .25em;
+	color: white;
+}
+
+p.f {
+	font-size: 15px;
+	font-family: Droid Arabic Kufi;
+	position: absolute;
+	top: 452px;
+	left: 685px;
+}
+
+.bmpui-ui-selectbox {
+	color: white;
+}
+
+.bmpui-ui-watermark {
+	display: none !important;
+}
